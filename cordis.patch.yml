@@ -1,0 +1,6 @@
+# dsh-claude-theme bundle patch: inserts the theme plugin row over the
+# profile root (same mechanism as dsh-base / dsh-bottom-bar). Consumed when
+# this package is listed in a profile's dsh.profile.bundles.
+- insert:
+    - id: dsh-claude-theme
+      name: 'dsh-claude-theme'
